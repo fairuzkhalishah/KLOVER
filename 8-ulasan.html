@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLOVER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #F2F1ED;
+        }
+
+        /* Warna Bintang */
+        .text-warning {
+            color: #FFC107 !important;
+        }
+
+        /* Area Input Cerita */
+        textarea.form-control {
+            background-color: #E9ECEF !important;
+            /* Abu-abu muda sesuai gambar */
+            resize: none;
+        }
+
+        /* Penyesuaian list ulasan agar tidak terlalu renggang */
+        .review-item p {
+            color: #444;
+        }
+    </style>
+</head>
+
+<body style="background-color: #F2F1ED;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="LOGO KLOVER-Photoroom.png" width="120" height="auto" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-info-emphasis" href="2-home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-info-emphasis" href="3-product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info-emphasis" href="5-cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info-emphasis" href="6-order.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info-emphasis" href="7-tracking.html">Tracking</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="#">
+                        <img src="taehyun.png" width="35" height="auto" alt="Profile" href="#"></a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container my-3">
+        <h2 class="fw-bold mb-4 text-info-emphasis">RATING</h2>
+
+        <div class="row g-4">
+            <div class="col-md-7">
+                <div class="bg-white p-4 rounded-4 shadow-sm mb-4 d-flex align-items-center">
+                    <img src="plush keyring.png" class="rounded-3 me-4" style="width: 150px;">
+                    <div>
+                        <h4 class="fw-bold mb-1">Plush Keyring V.2 - Bamgeut Ver.</h4>
+                        <h5 class="text-muted mb-3">Rp. 150.000</h5>
+                        <p class="small text-secondary">Pesanan Diterima pada 14 November 2025</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-4 shadow-sm">
+                    <h5 class="fw-bold mb-3">Rating Produk:</h5>
+                    <div class="mb-3 text-warning h4">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <textarea class="form-control border-0 bg-light rounded-3 mb-3" rows="3"
+                        placeholder="Ceritakan pengalaman kamu dengan produk ini..."></textarea>
+                    <button class="btn btn-light btn-sm text-muted border">
+                        <i class="bi bi-camera-fill me-1"></i> Tambah Foto
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="bg-white p-4 rounded-4 shadow-sm h-100">
+                    <h5 class="fw-bold mb-4">Ulasan Lainnya <span class="text-muted small">(Dari Pembeli Lain)</span>
+                    </h5>
+
+                    <div class="review-item border-bottom pb-3 mb-3">
+                        <p class="fw-bold mb-1">@moa_304</p>
+                        <div class="text-warning small mb-2">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                        </div>
+                        <p class="small mb-0">Lucu banget, Jahitannya rapi dan lembut.</p>
+                    </div>
+
+                    <div class="review-item border-bottom pb-3 mb-3">
+                        <p class="fw-bold mb-1">@thyn_0205</p>
+                        <div class="text-warning small mb-2">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                        </div>
+                        <p class="small mb-0">Bagus tapi pengiriman agak lama dikit, overall worth it bgtt!</p>
+                    </div>
+
+                    <div class="review-item">
+                        <p class="fw-bold mb-1">@bgchoi_1303</p>
+                        <div class="text-warning small mb-2">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                        </div>
+                        <p class="small mb-0">bamgeutt lucuu bangettt, ga nyesel beli disiniii.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center gap-4 mt-5">
+            <a href="2-home.html" class="text-decoration-none">
+                <button class=" px-5 py-2 fw-bold" style="border-radius: 10px; background-color: #ffffff;">Kembali ke
+                    Beranda</button>
+            </a>
+            <a href="3-product.html" class="text-decoration-none">
+                <button class="btn px-5 py-2 fw-bold text-dark"
+                    style="background-color: #A2E3E3; border-radius: 10px; border: 1px solid #000;">Kirim
+                    Ulasan</button>
+            </a>
+        </div>
+    </div>
+    <footer class="bg-body-tertiary bg-info-subtle text-center text-info-emphasis py-4 mt-3">
+        © 2025 KLOVER | Bootstrap
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
